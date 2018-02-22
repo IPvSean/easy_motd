@@ -2,5 +2,5 @@
 - hosts: all
   tasks:
     - template:
-      src: ./motd.j2
-      dest: /etc/motd
+        src: ./motd.j2
+        dest: /etc/motd
